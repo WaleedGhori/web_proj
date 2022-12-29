@@ -21,27 +21,75 @@ const Home = () => {
             </div>
           </div>
         </section>
-        <section className='our_service'>
-            <div className='container'>
-              <h2 className='font-bold text-3xl text-center mb-2'>Our Key Values</h2>
-              <hr className='w-20 h-1 bg-indigo-500 m-auto mt-0'/>
-              <div className='flex m-4'>
-              <div className='border-solid border-2 border-indigo-500 m-4 p-4 hover:bg-indigo-600 hover:text-white '>
-                  <h2 className='text-2xl font-semibold text-center mt-2 mb-4'>Dedication</h2>
-                  <p className='text-base text-center font-serif font-medium '>Ethical Values towards both the team members and clients, no matter what.</p>
-                </div>
-                <div className='border-solid border-2 border-indigo-500 m-4 p-4 hover:bg-indigo-600 hover:text-white  '>
-                  <h2 className='text-2xl font-semibold text-center mt-2 mb-4'>Sincerity</h2>
-                  <p className='text-base text-center font-serif font-medium '>Quality Deliverance of work and sincerity to client and Organization.</p>
-                </div>
-                <div className='border-solid border-2 border-indigo-500 m-4 p-4 hover:bg-indigo-600 hover:text-white'>
-                  <h2 className='text-2xl font-semibold text-center mt-2 mb-4'>Results</h2>
-                  <p className='text-base text-center font-serif font-medium '>Time Deliverance of work according to client need.</p>
-                </div>
-        
+
+
+        <section>
+          <div className='mt-12 mb-8'>
+          <h2 className="text-xs text-indigo-500 tracking-widest font-medium text-center title-font mb-1">WEB TECHNOLOGY</h2>
+          <h2 className='font-bold text-3xl text-center mb-4'>Our CEO</h2>
+          <hr className='w-20 h-1 bg-indigo-500 m-auto mt-0' />
+          </div>
+          <div className='container md:flex-row flex-col flex justify-center bg-indigo-500'>
+            <div className='m-4 p-4 rounded text-white font-serif font-semibold'>
+              <h2 className='text-2xl font-semibold text-center mt-2 mb-4'>Our Vision and Mission</h2>
+              <p className='text-base text-center font-serif font-medium'>It gives natural vibrations to my hands and sensations to my mind when to write about this august university i.e. Sindh Madressatul Islam University, Karachi. This is the institute credited with production of wise persons, visionary leaders, freedom fighters, educationists and founders, viz: Quaid-e-Azam Mohammad Ali Jinnah, Sir Shahnawaz Bhutto, Sir Abdullah Haroon, Sir Ghulam Hussain Hidayatullah, Khan Bahadur Mohammad Ayub Khuhro, Allama I.I. Kazi, Allama Umer Bin Mohammad Doudpota, Hanif Muhammad and to my groomer i.e. my father father Taj Muhammad Sahrai.
+              </p>
+              <p className='mt-4 text-base text-center font-serif font-medium'>
+                Azhar-Ud-Din
+                <br />
+                CEO of Web Technology
+              </p>
+            </div>
+            <div className='m-4 mr-32 p-4 rounded hover:text-white'>
+              <Link href={'/'}><Image src='/aazhar.jpg' alt='Codeswear' width={750} height={150}></Image></Link>
+            </div>
+          </div>
+        </section>
+
+
+        <section className='our_service mt-20 mb-12'>
+          <div className='container'>
+            <h2 class="text-xs text-indigo-500 tracking-widest font-medium text-center title-font mb-1">WEB TECHNOLOGY</h2>
+
+            <h2 className='font-bold text-3xl text-center mb-4'>Our Key Values</h2>
+            <hr className='w-20 h-1 bg-indigo-500 m-auto mt-0' />
+            <div className='flex m-4 md:flex-row flex-col'>
+              <div className='border-solid border-2 border-indigo-200 m-4 p-4 hover:bg-indigo-600  rounded hover:text-white '>
+                <h2 className='text-2xl font-semibold text-center mt-2 mb-4'>Dedication</h2>
+                <p className='text-base text-center font-serif font-medium '>Ethical Values towards both the team members and clients, no matter what.</p>
+              </div>
+              <div className='border-solid border-2 border-indigo-200 m-4 p-4 hover:bg-indigo-600 rounded hover:text-white  '>
+                <h2 className='text-2xl font-semibold text-center mt-2 mb-4'>Sincerity</h2>
+                <p className='text-base text-center font-serif font-medium '>Quality Deliverance of work and sincerity to client and Organization.</p>
+              </div>
+              <div className='border-solid border-2 border-indigo-200 m-4 p-4 hover:bg-indigo-600 rounded hover:text-white'>
+                <h2 className='text-2xl font-semibold text-center mt-2 mb-4'>Results</h2>
+                <p className='text-base text-center font-serif font-medium '>Time Deliverance of work according to client need.</p>
               </div>
             </div>
+          </div>
+        </section>
+        <section className='our_service mt-20 mb-12'>
+          <div className='container'>
+            <h2 class="text-xs text-indigo-500 tracking-widest font-medium text-center title-font mb-1">WEB TECHNOLOGY</h2>
 
+            <h2 className='font-bold text-3xl text-center mb-4'>Our Testonomials</h2>
+            <hr className='w-20 h-1 bg-indigo-500 m-auto mt-0' />
+            <div className='flex m-4 md:flex-row flex-col'>
+              <div className='border-solid border-2 border-indigo-200 m-4 p-4 hover:bg-indigo-600 rounded hover:text-white '>
+                <h2 className='text-2xl font-semibold text-center mt-2 mb-4'>Waleed</h2>
+                <p className='text-base text-center font-serif font-medium '>Well Done job by team web technology the quality of product is awsome and the project is very user friendly...</p>
+              </div>
+              <div className='border-solid border-2 border-indigo-200 m-4 p-4 hover:bg-indigo-600 rounded hover:text-white  '>
+                <h2 className='text-2xl font-semibold text-center mt-2 mb-4'>Kunzal</h2>
+                <p className='text-base text-center font-serif font-medium '>Well Done job by team web technology the quality of product is awsome and the project is very user friendly...</p>
+              </div>
+              <div className='border-solid border-2 border-indigo-200 m-4 p-4 hover:bg-indigo-600 rounded hover:text-white'>
+                <h2 className='text-2xl font-semibold text-center mt-2 mb-4'>Asad</h2>
+                <p className='text-base text-center font-serif font-medium '>Well Done job by team web technology the quality of product is awsome and the project is very user friendly...</p>
+              </div>
+            </div>
+          </div>
         </section>
       </section>
     </div>
