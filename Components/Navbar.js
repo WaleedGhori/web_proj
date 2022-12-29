@@ -10,7 +10,7 @@ const Navbar = () => {
                     <span class="ml-3 text-xl text-indigo-600">WEB TECHNOLOGY</span>
                 </a>
                 <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
-                    <Link href={'/home'} className="mr-5 hover:text-gray-900"><li className='list-none text-stone-900 font-sans'>Home</li></Link >
+                    <Link href={'/Home'} className="mr-5 hover:text-gray-900"><li className='list-none text-stone-900 font-sans'>Home</li></Link >
                     <Link href={'/about_us'} className="mr-5 hover:text-gray-900"><li className='list-none text-stone-900 font-sans'>About Us</li></Link >
                     <Link href={'/our_service'} className="mr-5 hover:text-gray-900"><li className='list-none text-stone-900 font-sans'>Services</li></Link >
                     <Link href={'/portfolio'} className="mr-5 hover:text-gray-900"><li className='list-none text-stone-900 font-sans'>Portfolio</li></Link >
