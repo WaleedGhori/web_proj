@@ -49,7 +49,7 @@ const our_service = () => {
               <p className='text-base text-center font-serif font-medium '>Well Done job by team web technology the quality of product is awsome and the project is very user friendly...</p>
             </div>
             <div className='border-solid border-2 border-indigo-200 m-4 p-4 hover:bg-indigo-600 rounded hover:text-white'>
-              <h2 className='text-2xl font-semibold text-center mt-2 mb-4'>Meta Verse</h2>
+              <h2 className='text-2xl font-semibold text-center mt-2 mb-4'>Meta Verse and Virtual Reality</h2>
               <p className='text-base text-center font-serif font-medium '>Well Done job by team web technology the quality of product is awsome and the project is very user friendly...</p>
             </div>
           </div>

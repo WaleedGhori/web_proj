@@ -27,8 +27,9 @@ const about_us = () => {
         </div>
       </section>
 
+
       <section className='our_service mt-4 mb-12'>
-          <div className='container'>
+          <div  className='container'>
             <div className='flex m-4 md:flex-row flex-col space-x-20 items-center justify-center'>
               <div>
                 <h1 className='text-2xl'><bold className="text-3xl font-bold">15</bold> years</h1>

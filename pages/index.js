@@ -14,7 +14,7 @@ export default function Index() {
       </Head>
       <div>
       <section className="min-h-screen">
-        <section className="text-gray-600 body-font">
+        <section className="text-gray-600 body-font mt-16">
           <div className="container mx-auto flex px-5 py-8 md:flex-row flex-col items-center">
             <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
               <Link href={'/'}><Image src='/hero.jpg' alt='Codeswear' width={500} height={180}></Image></Link>
