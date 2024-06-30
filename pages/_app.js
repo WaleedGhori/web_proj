@@ -1,5 +1,5 @@
-import Footer from '../components/Footer'
-import Navbar from '../components/Navbar'
+import Footer from '../Components/Footer'
+import Navbar from '../Components/Navbar'
 import '../styles/globals.css'
 import React, { useEffect } from 'react';
 import AOS from 'aos';
